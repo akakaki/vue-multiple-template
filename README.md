@@ -1,33 +1,21 @@
-# vue-multiple-template
+# Vue 複數站台單一專案方案
 
-This template should help get you started developing with Vue 3 in Vite.
+解決需支援多個版型切換與佈署。
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 指令
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 開發
 
 ```sh
-npm run dev
+npm run dev { env name e.g alpha }
 ```
 
-### Type-Check, Compile and Minify for Production
+### 打包
 
 ```sh
-npm run build
+npm run build { env name e.g alpha }
 ```
